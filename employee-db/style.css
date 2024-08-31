@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  padding: 0 10px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header > button {
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--btn);
+  cursor: pointer;
+}
+
+.header > button:hover {
+  background-color: var(--btnhover);
+}
+
+.employees {
+  border: 1px solid black;
+  display: flex;
+}
+.employees > div {
+  border: 1px solid black;
+  overflow-y: scroll;
+  height: 450px;
+}
+.employeeList {
+  width: 30%;
+  flex-direction: column;
+  border: 1px solid gray;
+}
+.employee {
+
+}
+.employeeInformation {
+  width: 70%;
+  flex-direction: column;
+  border: 1px solid gray;
+}
