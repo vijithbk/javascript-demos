@@ -1,0 +1,48 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+  display: flex;
+}
+.colon {
+  font-size: 20px;
+  align-content:flex-end;
+}
+.hours {
+  margin: 20px;
+  font-size: 20px;
+}
+.minutes {
+  margin: 20px;
+  font-size: 20px;
+}
+.seconds {
+  margin: 20px;
+  font-size: 20px;
+}
+.actions button {
+  font-size: 20px;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 10px;
+}
+.actions button:hover {
+  text-decoration: underline;
+}
+.actions .start {
+  background-color: green;
+}
+.actions .reset {
+  background-color: red;
+}
