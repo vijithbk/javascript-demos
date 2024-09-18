@@ -2,12 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Custom date picker - demo</title>
+    <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <h1>Custom date picker</h1>
+    <div class="date-picker-wrapper">
+
+      <div class="selected-date">06 / 10 / 2022</div>
+
+      <div class="dates-container">
+        <div class="month">
+          <div class="arrows prev-month">&lt;</div>
+          <div class="month-item">June 2022</div>
+          <div class="arrows next-month">&gt;</div>
+        </div>
+        <div class="days-container"></div>
+      </div>
+
+    </div>
+    <script src="/script.js"></script>
   </body>
 </html>
